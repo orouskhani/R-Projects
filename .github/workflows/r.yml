@@ -38,6 +38,6 @@ jobs:
         Rscript -e 'install.packages(c("nnet"), repos="https://cloud.r-project.org/")'
 
     - name: Run R script
-      run: pwd 
+      run: Rscript mlp.r
       
     
